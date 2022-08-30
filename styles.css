@@ -93,6 +93,11 @@ font-family: "Inter", sans-serif; */
 	margin: 0 0 4.8rem 3.2rem;
 	border-left: 3px solid #7cb8dd;
 	padding-left: 1.5rem;
+	max-width: 80%;
+}
+
+.hero-illustration {
+	width: 100%;
 }
 
 .social-icons {
@@ -119,6 +124,12 @@ font-family: "Inter", sans-serif; */
 
 .about-content {
 	margin-top: 4.8rem;
+	gap: 3rem;
+	align-items: center;
+}
+
+.raph-img {
+	width: 70%;
 }
 
 .about-subheading {
@@ -189,6 +200,96 @@ font-family: "Inter", sans-serif; */
 	margin-bottom: 1rem;
 }
 
+/* Other Noteworthy Projects  */
+
+.other-projects {
+	padding: 6.4rem 0 2.4rem 0;
+}
+
+.other--projects-heading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-weight: 500;
+	font-size: 3.6rem;
+	line-height: 1.2;
+	color: #2b3838;
+}
+
+.folder-grid {
+	gap: 3.2rem;
+	margin: 6.4rem 0 0rem 0;
+}
+
+.folder {
+	background-color: hsla(27, 60%, 94%, 0.749);
+	border-radius: 1rem;
+	padding: 2.4rem;
+}
+
+.folder-heading {
+	font-weight: 500;
+	font-size: 2.4rem;
+	line-height: 1.2;
+	margin: 2.4rem 0 1.6rem 0;
+	color: #2b3838;
+}
+
+.folder-description {
+	font-size: 1.6rem;
+	line-height: 1.7;
+	margin: 1.2rem 0 2.4rem 0;
+}
+
+.folder-links {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.project-tool {
+	font-size: 1.2rem;
+}
+
+/**************************/
+/* WHAT I DO SECTION */
+/**************************/
+
+.do-container {
+	max-width: 120rem;
+	padding: 9.6rem 3.2rem 8rem 3.2rem;
+	margin: 0 auto;
+}
+
+.design {
+	margin-bottom: 8rem;
+}
+
+.heading {
+	font-size: 2.6rem;
+	font-weight: 400;
+	margin-bottom: 1.2rem;
+	color: #2b3838;
+}
+
+.design-description {
+	line-height: 1.7;
+}
+
+/**************************/
+/* THE FOOTER */
+/**************************/
+
+.footer {
+	background-color: #f9efe7;
+	padding: 9.6rem 3.2rem 20rem 3.2rem;
+}
+
+.footer-description {
+	line-height: 1.7;
+}
+
 /* 
 --- 01 TYPOGRAPHY SYSTEM
 
@@ -198,4 +299,4 @@ font-family: "Inter", sans-serif; */
 
 - Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-*/
+*/ ;
