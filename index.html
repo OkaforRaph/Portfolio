@@ -30,9 +30,18 @@
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="styles.css" />
 		<link rel="stylesheet" href="general.css" />
+		<link rel="stylesheet" href="queries.css" />
 
 		<!-- Javascript file  -->
-		<script defer src="./Js/script.js"></script>
+		<script defer src="script.js"></script>
+
+		<!-- for smooth scrolling in Safari  -->
+		<script
+			defer
+			src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+		></script>
+
+
 	</head>
 
 	<body>
@@ -51,6 +60,12 @@
 					<li><a class="main-nav-link nav-cta" href="#cta">Resume</a></li>
 				</ul>
 			</nav>
+
+			<button class="btn-mobile-nav">
+				<i class="icon-mobile-nav fa-solid fa-bars" name="menu-outline"></i>
+
+				<i class="icon-mobile-nav fa-solid fa-xmark" name="close-outline"></i>
+			</button>
 		</header>
 
 		<!-- Hero section  -->
@@ -127,7 +142,7 @@
 									Here are technologies I’ve been working with recently:
 								</p>
 
-								<ul class="skills grid grid--2-col">
+								<ul class="skills grid">
 									<li  class="skills-list">
 										<i class="fa-solid fa-caret-right arrow"></i> <p class="tech-skill">Javascript</p>
 									</li>
@@ -172,7 +187,7 @@
 					<h2 class="heading-secondary project-heading">Projects I've Done</h2>
 
 					<!-- Omnifood -->
-					<div class="projects grid grid--2-col">
+					<div class="projects">
 						<div class="project-text">
 							<h2 class="project-title heading-tertiary">Omnifood</h2>
 
@@ -225,7 +240,7 @@
 
 
 					<!-- Team -->
-					<div class="projects grid grid--2-col">
+					<div class="projects">
 
 						<figure class="project-img-box">
 							<img class="project-img" src="./Images/Team.png" alt="Image of Omnifood Website">
@@ -272,7 +287,7 @@
 
 
 					<!-- Sunnyside -->
-					<div class="projects grid grid--2-col">
+					<div class="projects">
 						<div class="project-text">
 							<h2 class="project-title heading-tertiary">Sunnyside</h2>
 
@@ -327,7 +342,7 @@
 
 
 					<!-- Tindog -->
-					<div class="projects grid grid--2-col">
+					<div class="projects">
 						<figure class="project-img-box">
 							<img class="project-img" src="./Images/TinDog.png" alt="Image of Omnifood Website">
 						</figure>
@@ -695,7 +710,7 @@
 		</section>
 
 		<footer class="footer">
-			<div class="container grid grid--2-col">
+			<div class="footer-container grid grid--2-col">
 				<h2 class="heading-secondary">Want to work?</h2>
 				<p class="footer-description">
 					If you need a modern and powerful website for your business, startup or personally, I am available for work. You can email me directly at <mark>Oraphael50@outlook.com</mark>.
