@@ -262,6 +262,13 @@ font-family: "Inter", sans-serif; */
 	margin-bottom: 1rem;
 }
 
+.icons a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+
 /* Other Noteworthy Projects  */
 
 .other-projects {
