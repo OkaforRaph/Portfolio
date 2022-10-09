@@ -354,6 +354,8 @@ font-family: "Inter", sans-serif; */
 .footer {
 	background-color: #f9efe7;
 	padding: 9.6rem 3.2rem 20rem 3.2rem;
+
+	position: relative;
 }
 
 .footer-container {
@@ -365,6 +367,18 @@ font-family: "Inter", sans-serif; */
 	line-height: 1.7;
 }
 
+.copyright {
+	position: absolute;
+	right: 50%;
+	bottom: 10%;
+	transform: translate(50%, 0);
+}
+
+.copyright p {
+	color: #cf711f;
+	line-height: 1.75;
+	font-family: "Fira Code", monospace;
+}
 /* 
 --- 01 TYPOGRAPHY SYSTEM
 
